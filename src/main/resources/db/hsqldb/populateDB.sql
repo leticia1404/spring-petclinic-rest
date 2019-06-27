@@ -57,3 +57,26 @@ INSERT INTO users(username,password,enabled) VALUES ('admin','admin', true);
 INSERT INTO roles (username, role) VALUES ('admin', 'ROLE_OWNER_ADMIN');
 INSERT INTO roles (username, role) VALUES ('admin', 'ROLE_VET_ADMIN');
 INSERT INTO roles (username, role) VALUES ('admin', 'ROLE_ADMIN');
+INSERT INTO roles (username, role) VALUES ('admin', 'PRODUCT_ADMIN');
+
+
+INSERT INTO products VALUES (1, 'Golden gato adulto salmao', 
+'Formulada com ingredientes de alta qualidade e balanceada para suprir 
+às particularidades nutricionais dos felinos, 
+Golden Gatos Adultos Salmão oferece sabor irresistível
+ e cuidados especiais com o trato urinário, 
+ garantindo assim, sabor e saúde para seu gato.','1kg');
+INSERT INTO products VALUES (2, 'Frango Sonoro Vinil', 
+'Brinquedo frango em vinil sonoro. 
+Dimensões: Altura: 38cm
+Largura: 10 cm
+Profundidade: 8 cm','200g');
+INSERT INTO products VALUES (3, 'Ração Whiskas Sachê Frango para Gatos Filhotes', 
+'WHISKAS® Sachê Filhotes Sabor Frango ao Molho
+WHISKAS® sabe o que os gatos naturalmente precisam e amam. 
+Por isso, cada sachê é preparado cuidadosamente com ingredientes de alta 
+qualidade, garantindo os nutrientes que eles precisam todos os dias,
+ e agora com um molho ainda mais encorpado.
+Disponível em embalagens de 85g, prática, fácil de abrir e que contém 
+a medida certa para uma refeição saudável, completa e balanceada.','85g');
+

@@ -36,6 +36,11 @@ import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 
 public class JacksonCustomVisitSerializer extends StdSerializer<Visit> {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public JacksonCustomVisitSerializer() {
 		this(null);
 	}
